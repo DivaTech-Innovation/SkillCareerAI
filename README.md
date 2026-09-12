@@ -1,58 +1,230 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+## SkillCareerAI
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+> Platform pembelajaran dan pengembangan karier berbasis AI untuk membantu pengguna menemukan jalur karier, meningkatkan skill, dan mempersiapkan diri menghadapi dunia kerja.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 📌 Tentang SkillCareerAI
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+SkillCareerAI adalah website yang dirancang untuk membantu pengguna dalam merencanakan dan mengembangkan karier secara lebih terarah.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Platform ini menggabungkan pembelajaran, roadmap karier, rekomendasi pekerjaan, serta AI Mentor dalam satu website.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## 🎯 Tujuan
 
-In addition, [Laracasts](https://laracasts.com) contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+SkillCareerAI dibuat untuk:
 
-You can also watch bite-sized lessons with real-world projects on [Laravel Learn](https://laravel.com/learn), where you will be guided through building a Laravel application from scratch while learning PHP fundamentals.
+- Membantu pengguna mengenali potensi dan minat karier.
+- Memberikan roadmap belajar yang lebih terarah.
+- Membantu pengguna mempelajari skill yang dibutuhkan dunia kerja.
+- Menyediakan AI Mentor sebagai teman belajar dan konsultasi.
+- Memberikan informasi mengenai peluang karier dan pekerjaan.
+- Membantu pengguna mempersiapkan diri sebelum masuk dunia kerja.
 
-## Agentic Development
+---
 
-Laravel's predictable structure and conventions make it ideal for AI coding agents like Claude Code, Cursor, and GitHub Copilot. Install [Laravel Boost](https://laravel.com/docs/ai) to supercharge your AI workflow:
+## ✨ Fitur Utama
+
+### 🤖 AI Career Assessment
+Membantu pengguna mendapatkan gambaran mengenai bidang karier yang sesuai dengan minat dan kemampuan.
+
+### 🗺️ Roadmap Belajar
+Memberikan jalur pembelajaran yang terstruktur agar pengguna dapat mengetahui skill apa yang perlu dipelajari.
+
+### 📚 Learning
+Menyediakan materi pembelajaran untuk membantu pengguna meningkatkan kemampuan.
+
+### 🤖 AI Mentor
+Fitur berbasis AI yang dapat membantu pengguna dalam belajar, berdiskusi, dan mendapatkan arahan terkait karier.
+
+### 💼 Career Hub
+Menyediakan informasi mengenai peluang kerja dan bidang karier yang dapat dipilih oleh pengguna.
+
+### 🎤 Simulasi Wawancara
+Membantu pengguna mempersiapkan diri menghadapi proses wawancara kerja.
+
+### 👥 Community
+Menyediakan ruang untuk menemukan komunitas belajar dan pengembangan skill.
+
+### 🏆 Sertifikat
+Menyediakan sistem sertifikat sebagai bentuk penyelesaian pembelajaran.
+
+### ⭐ Testimonial
+Pengguna dapat memberikan pengalaman dan penilaian terhadap platform.
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+- **Laravel**
+- **PHP**
+- **Blade Template**
+- **MySQL**
+- **HTML5**
+- **CSS3**
+- **JavaScript**
+- **Lucide Icons**
+- **AI API**
+
+---
+
+## 📂 Struktur Project
+
+```text
+SkillCareerAI/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+│   └── views/
+├── routes/
+├── storage/
+├── tests/
+├── artisan
+├── composer.json
+├── composer.lock
+├── package.json
+└── README.md
+````
+
+---
+
+## ⚙️ Cara Menjalankan Project
+
+### 1. Clone Repository
 
 ```bash
-composer require laravel/boost --dev
-
-php artisan boost:install
+git clone https://github.com/DivaTech-Innovation/SkillCareerAI.git
 ```
 
-Boost provides your agent 15+ tools and skills that help agents build Laravel applications while following best practices.
+### 2. Masuk ke Folder
 
-## Contributing
+```bash
+cd SkillCareer3
+```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### 3. Install Dependency
 
-## Code of Conduct
+```bash
+composer install
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+Jika menggunakan Node.js:
 
-## Security Vulnerabilities
+```bash
+npm install
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+### 4. Buat File Environment
 
-## License
+Salin file `.env.example` menjadi `.env`.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+```bash
+cp .env.example .env
+```
+
+Untuk Windows dapat dilakukan secara manual dengan membuat file `.env`.
+
+### 5. Generate Application Key
+
+```bash
+php artisan key:generate
+```
+
+### 6. Konfigurasi Database
+
+Buat database MySQL kemudian sesuaikan konfigurasi pada `.env`.
+
+Contoh:
+
+```env
+DB_DATABASE=skillcareerai
+DB_USERNAME=root
+DB_PASSWORD=
+```
+
+### 7. Jalankan Migration
+
+```bash
+php artisan migrate
+```
+
+### 8. Jalankan Project
+
+```bash
+php artisan serve
+```
+
+Website dapat diakses melalui:
+
+```text
+http://127.0.0.1:8000
+```
+
+---
+
+## 👤 Target Pengguna
+
+SkillCareerAI ditujukan untuk:
+
+* Pelajar
+* Mahasiswa
+* Pemula yang ingin belajar skill baru
+* Pencari kerja
+* Pengguna yang ingin mengembangkan karier
+
+---
+
+## 🚀 Pengembangan Selanjutnya
+
+Beberapa pengembangan yang dapat dilakukan:
+
+* Pengembangan AI Mentor yang lebih cerdas.
+* Sistem rekomendasi karier yang lebih personal.
+* Integrasi lebih banyak lowongan pekerjaan.
+* Sistem pembelajaran yang lebih interaktif.
+* Pengembangan komunitas pengguna.
+* Sistem achievement dan gamifikasi.
+
+---
+
+## 🏆 AI Web Innovation Challenge
+
+Project ini dibuat sebagai bagian dari:
+
+**AI Web Innovation Challenge**
+
+Dengan konsep website pembelajaran dan pengembangan karier yang memanfaatkan teknologi Artificial Intelligence untuk membantu pengguna mempersiapkan masa depan karier.
+
+---
+
+## 🔗 Project Links
+
+**Website:**
+(https://WEBSITE-KAMU.com)
+
+**GitHub:**
+(https://github.com/DivaTech-Innovation/SkillCareerAI)
+
+---
+
+## 👨‍💻 Developer
+
+**Nama:** [Diva Pradana - Garuda Smart Technology]
+**Project:** SkillCareerAI
+**Jurusan:** RPL
+**Sekolah** SMK TI Bali Global Denpasar
+
+---
+
+## 📄 License
+
+Project ini dibuat untuk keperluan pembelajaran dan kompetisi.
+
+---
+
+> **SkillCareerAI — Learn Skills. Build Your Career. Shape Your Future.**
