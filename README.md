@@ -214,7 +214,7 @@ Dengan konsep website pembelajaran dan pengembangan karier yang memanfaatkan tek
 
 ## 👨‍💻 Developer
 
-**Nama:** [Diva Pradana - Garuda Smart Technology]
+**Nama:** Diva Pradana - Garuda Smart Technology
 **Project:** SkillCareerAI
 **Jurusan:** RPL
 **Sekolah** SMK TI Bali Global Denpasar
